@@ -451,6 +451,10 @@ body {
     margin-bottom: 40px; 
 }
 
+.part_07 .item_wrap .item .text_box p{
+    line-height: 1.5;
+}
+
 .part_07 .item_wrap .item a {
     display: block;
     width: 140px;
