@@ -267,50 +267,42 @@ body {
 
 .part_04 {
     margin-bottom: 150px;
+    width: 1440px;
+    margin: 150px auto;
 }
 
 .part_04 h1{
-    width: 1440px;
-    margin: 0 auto;
-    margin-bottom: 28px;
     font-size: 48px;
+    margin-bottom: 28px;
 }
 
 .part_04 .item_wrap {
-    width: 1440px;
-    margin: 0 auto;
-}
-
-.part_04 .item_wrap .first_row {
-    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.part_04 .item_wrap .second_row {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+    row-gap: 40px;
 }
 
 .part_04 .item_wrap .item {
+    width: 705px;
     display: flex;
+    justify-content: space-between;
+}
+
+.part_04 .item_wrap .item img {
+    width: 338px;
+    height: 338px;
+    object-fit: cover;
 }
 
 .part_04 .item_wrap .item .text_box {
-    margin-left: 30px;
     width: 338px;
-}
-
-.part_04 .item_wrap .item .text_box .ad {
-    margin-bottom: 16px;
 }
 
 .part_04 .item_wrap .item .text_box h2 {
     font-size: 20px;
-    line-height: 26px;
-    margin-bottom: 16px;
+    line-height: 1.3;
+    margin: 16px 0;
 }
 
 .part_04 .item_wrap .item .text_box p {
@@ -319,11 +311,6 @@ body {
     line-height: 24px;
     margin-bottom: 16px;
     overflow: hidden;
-}
-
-.part_04 .item_wrap .item .text_box span {
-    display: block;
-    font-size: 16px;
 }
 
 .middle_line {
